@@ -22,7 +22,7 @@ function calcNewVelocity(velocity, acceleration, time) {
   return velocity + ((acceleration*3.6)* time);
 }
 
-// Calculted new distance
+// Calculated new distance
 const newDistance = initialDistance + (initialVelocity * (timeSeconds / 3600));
 
 // Calculated remaining fuel
